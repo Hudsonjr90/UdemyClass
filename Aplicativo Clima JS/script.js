@@ -7,7 +7,7 @@ const wrapper = document.querySelector(".wrapper"),
   wIcon = weatherPart.querySelector("img"),
   arrowBack = wrapper.querySelector("header i");
 
-const apiKey = "YOUR_API"; // Replace with your actual API key
+const apiKey = "383780b96a6afc813c84d99d6d5d47b8"; // Replace with your actual API key
 let api;
 
 inputField.addEventListener("keyup", (e) => {
@@ -41,7 +41,7 @@ function onError(error) {
 }
 
 function fetchData() {
-  infoTxt.innerText = "Getting weather details...";
+  infoTxt.innerText = "Buscando informações...";
   infoTxt.classList.add("pending");
   fetch(api)
     .then((res) => res.json())

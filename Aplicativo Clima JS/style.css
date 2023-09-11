@@ -12,7 +12,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(180deg, #0f0f0f 50%, #a12a59 50%);
+  background-size: contain;
+  background-repeat: round;
+  background-image: url(./assets/horizon.png) ;
   color: #fff;
 }
 
@@ -117,7 +119,7 @@ header i {
 }
 
 .separator::before {
-  content: "or";
+  content: "ou";
   color: #666;
   font-size: 19px;
   padding: 0 15px;
