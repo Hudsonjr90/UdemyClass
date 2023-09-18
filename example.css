@@ -1,0 +1,11 @@
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -45px;
+}
+.copy p{
+    color: #fff;
+    font-size: 1em;
+    border-bottom: 0.2em solid #04D361;
+}
