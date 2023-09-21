@@ -45,7 +45,7 @@ ul li:nth-child(1) a::before {
     #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
     #bc1888 100%);
   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   border-bottom: 4px solid #dc2743;
 }
 ul li:nth-child(2) a::before {
@@ -60,4 +60,5 @@ ul li:nth-child(3) a::before {
 }
 ul li:hover a::before {
   height: 100%;
+  transform: rotate(359deg);
 }
